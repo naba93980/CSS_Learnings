@@ -1,0 +1,7 @@
+p {
+  color: hsla(123, 75%, 45%, 0.906);
+}
+h1 {
+  color: rgba(201, 29, 29, 0.906);
+}
+/*a in rgba is alpha, for 0.00 it is fully transparent for 1.00 it is fully opaque*/

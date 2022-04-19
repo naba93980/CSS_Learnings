@@ -1,0 +1,70 @@
+#one{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 50%;   
+    
+
+}
+#one:hover{
+    transform: scaleX(-1);
+}
+#wr {
+    border-style: solid;
+    border-color: red;
+    position: absolute;
+    top: 00px;
+}
+#ek {
+    border-style: solid;
+    width: 25%;
+    position: absolute;
+    top: 200px;
+    height: 25%;
+}
+#two{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    box-sizing: border-box;
+    height: auto;
+}
+#do{
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    top: 350px;
+    height: 220px;
+    width: 31%;
+    margin: 50px;
+    box-shadow: 0px 0px 8px 2px grey ;
+    
+}
+#three{
+    border-style: solid;
+    position: absolute;
+    top: 20px;
+    width: 98.5%;
+    height: auto;
+    box-shadow: 2px 2px 8px 0.4px grey;
+    opacity: 0.2;
+}
+#para{
+    text-align: center ;
+    padding-top: 0.5px;
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    border-style: solid;
+    margin-top: 165px;
+
+}

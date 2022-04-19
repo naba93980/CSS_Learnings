@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "hurricaneee ee";
+  src: url(fonts/Hurricane-Regular.ttf);
+}
+p {
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 500; /*OR bold*/
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: "Fira Sans", sans-serif;
+}
+h1 {
+  font-family: "Passions Conflict", cursive;
+  font-weight: Regular;
+}
+#p2 {
+  font-family: "hurricaneee ee", "Fira Sans", sans-serif;
+}

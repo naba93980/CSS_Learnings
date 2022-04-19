@@ -1,0 +1,18 @@
+#opa{
+    border-style: solid;
+    height: 50px;
+    background-color: rgb(56, 255, 7);
+    opacity: 0.5 ;
+    color: rgb(253, 7, 7);
+}
+#opa2{
+    border-style: solid;
+    height: 50px;
+    background-color: rgb(255, 7, 7);
+    opacity: 0.5 ;
+    color: rgb(253, 7, 7);
+    margin-top: -20px
+}
+#opa:hover{
+    opacity: 1;
+}

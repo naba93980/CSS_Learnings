@@ -1,0 +1,12 @@
+#sec {
+  background-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 90%;
+  width: 1000px;
+  max-width: 900px;
+  height: 100%;
+  min-height: 300px;
+  max-height: 450px;
+}

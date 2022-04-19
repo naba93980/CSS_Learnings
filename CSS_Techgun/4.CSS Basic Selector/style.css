@@ -1,0 +1,22 @@
+/*element selector*/
+p {
+  color: red;
+  direction: rtl;
+}
+/*id selector*/
+#three {
+  color: green;
+}
+/*class selector*/
+.one {
+  color: rgb(162, 243, 11);
+}
+#oneid {
+  color: black;
+}
+.two {
+  font-size: 25px;
+}
+.two {
+  font-size: 50px;
+}

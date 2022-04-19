@@ -1,0 +1,33 @@
+#one{
+    height: 300px;
+    border-style: solid;
+    background-color: red;
+    width: 100%;
+    background-image: url('bgimage.jfif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10% 10%;
+    background-size: cover;
+    background-position: 10% -10%;
+}
+/* formula followed -> x%(div width - pic width) =>x% separation of pic start from div start in x axis(width) */
+/* formula followed -> y%(div height - pic height) =>y% separation of pic start from div start in y axis(height) */
+/* in cover and contain positve or negative integers matter */
+
+#two{
+
+    
+    border-style: solid;
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
+    /* fill distorts image ratio */
+    object-fit: cover;
+    object-position: 0% -50%;
+    object-fit: contain;
+    object-position: 10% 0%; 
+    object-fit: fill;
+    object-position: 10% 10%; /*nochange */
+}

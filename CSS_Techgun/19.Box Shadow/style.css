@@ -1,0 +1,13 @@
+head{
+    font-size: 10vw;
+}
+
+
+#one{
+    border-style: solid;
+    border-color: red;
+    background-color: greenyellow;
+    margin: 25%;
+    box-shadow: 3px 3px 6px 6px grey;
+    /*x axis,y axis,blur,spread*/
+}

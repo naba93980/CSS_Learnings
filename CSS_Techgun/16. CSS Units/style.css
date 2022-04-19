@@ -1,0 +1,35 @@
+html {
+  border-style: solid;
+  border-color: red;
+  padding: 20px;
+  font-size: 20px;
+  font-size: 2vw;
+}
+body {
+  border-style: solid;
+  border-color: green;
+  padding: 20px;
+  font-size: 10vw;
+  font-size: 2em; /*child element of root html element*/
+}
+#parent {
+  border-style: solid;
+  border-color: orange;
+  width: 50%;
+  width: auto;
+  width: 50%;
+  font-size: 1rem; /*relative to root element size(html tag)*/
+  height: 50%;
+  height: auto;
+  font-size: 50%; /*50% of font size mentioned in body*/
+}
+#child {
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+  width: auto;
+  font-size: 0.5em; /*relative to direct parent element size*/
+  height: 50%;
+  height: auto;
+}
+/*em,rem is used mostly for font size, which ultimately is referred from font size declared in html element.*/

@@ -1,0 +1,44 @@
+caption{
+    border:2px solid rgb(252, 5, 5);
+    margin: 5px;
+    caption-side: bottom;
+}
+table{
+    border:2px solid rgb(4, 231, 252);
+    border-collapse: separate; /*all borders in table merged*/ 
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+    empty-cells: hide;
+    empty-cells: show;
+    border-collapse: separate;
+    border-collapse: collaps;
+    width: 50px;
+    height: 420px;
+    table-layout: fixed;
+    table-layout: auto;
+    /* fixed implemens the dimension that is set by user and tries to divied columns in equal dimensions, while auto keeps dimension flexible to allow browsers to automtically put values for better view */
+}
+th{
+    border:2px solid rgb(249, 6, 6);
+    height: 80px;
+    text-align: right;
+    vertical-align: top;
+    /* width: 40px; doesnot work */
+}
+td{
+    border:2px solid rgb(6, 26, 245);
+    height: 80px;
+    padding: 10px;
+    width: 120px;
+    text-align: right;
+    vertical-align: top;
+    /* margin:30px; margin doesnot work */
+}
+tr{
+    border:2px solid rgb(0, 0, 0);
+
+}
+/* border and other css properties does not work with table row */
+
+/* th and td behaves almost same, height, width text align, vertical align, padding, */
+/* th > td > table - border preference rule when 'border-collapse: collapse', table border however gets vanished  */

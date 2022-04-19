@@ -1,0 +1,12 @@
+#parent{
+    color: red;
+}
+#first{
+    color: rgb(0, 255, 17);
+}
+#second{
+    color: initial;
+}
+#third{
+    color: inherit;
+}

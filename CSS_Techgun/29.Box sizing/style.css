@@ -1,0 +1,9 @@
+#one{
+    height: 200px;
+    width: 50%;
+    border-style: solid;
+    padding: 30px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+
+}

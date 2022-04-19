@@ -1,0 +1,40 @@
+body {
+  border-style: solid;
+  border-color: red;
+}
+#p1 {
+  border-style: solid;
+  border-color: rgb(0, 255, 13);
+  padding: 30px;
+  margin: 0px;
+}
+#p2 {
+  border-style: solid;
+  border-color: rgb(0, 255, 13);
+  padding: 30px;
+  margin: 0px;
+  width: 50%;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto;*/
+  box-sizing: border-box;
+}
+#p3 {
+  border-style: solid;
+  border-color: rgb(0, 255, 13);
+  padding: 30px;
+  margin: 20px;
+  margin-top: 0px;
+}
+#p4 {
+  border-style: solid;
+  padding-left: 48%;
+  padding-right: 48%;
+  margin: 2%;
+}
+#d1 {
+  border-style: solid;
+  background-color: rgb(255, 238, 2);
+}

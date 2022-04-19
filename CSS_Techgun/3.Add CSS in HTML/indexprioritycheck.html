@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css style priority check</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        color: blue;
+      }
+      h2 {
+        color: red;
+      }
+    </style>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <h1>name</h1>
+    <h2>title</h2>
+    <p style="color: violet">naba</p>
+  </body>
+</html>
+<!--priority
+
+1. inline. 
+2. out of internal or external the one linked or defined at last. 
+
+
+-->

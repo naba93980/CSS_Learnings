@@ -1,0 +1,18 @@
+#cursor {
+  border-style: solid;
+  border-color: black;
+  cursor: auto;
+  cursor: all-scroll;
+  cursor: cell;
+  cursor: col-resize;
+  cursor: crosshair;
+  cursor: e-resize;
+  cursor: grab !important; /*!important overrides css priority rules and uses this value*/
+  cursor: help;
+  cursor: not-allowed;
+  cursor: pointer;
+  cursor: progress;
+  cursor: wait;
+  cursor: zoom-in;
+  cursor: zoom-out;
+}

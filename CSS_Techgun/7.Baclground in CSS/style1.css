@@ -1,0 +1,33 @@
+/*
+#bg {
+  background-image: url("bgimage.jfif");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+*/
+body {
+  border-style: solid;
+  border-color: yellow;
+}
+#bgone {
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 250px;
+}
+
+#bg {
+  background-image: url("luna.jpg");
+  background-repeat: no-repeat;
+  background-color: red;
+  /*background-attachment: fixed;*/ /*when this property is applied, size and postion of image is with respect to the visible document(html tag) area and not with respect to the area of the element in which the image is present.*/
+  background-size: 50% 50%;
+  background-position: 100% 0%;
+  border-style: solid;
+  margin-left: 50px;
+  margin-top: 50px;
+}

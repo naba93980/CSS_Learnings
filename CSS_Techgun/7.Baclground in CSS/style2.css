@@ -1,0 +1,16 @@
+html {
+  border-style: solid;
+  border-color: green;
+}
+body {
+  border-width: 1px;
+}
+#bg {
+  border-style: solid;
+  border-color: red;
+  background-image: url("luna.jpg");
+  background-repeat: no-repeat;
+  background-position: -10% 0px;
+  height: 250px;
+  overflow: auto;
+}

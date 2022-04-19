@@ -1,0 +1,20 @@
+#brdr {
+  border-style: solid;
+  border-style: dotted;
+  border-style: dashed;
+  border-style: double;
+  border-style: groove;
+  border-style: solid;
+  border-style: outset;
+  border-style: inset;
+  border-style: ridge;
+  border-style: solid dotted outset groove;
+  border-top-width: 10px;
+  border-width: 10px;
+  border-color: pink red;
+  border-top-color: green;
+  border-radius: 20%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

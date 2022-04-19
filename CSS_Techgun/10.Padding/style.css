@@ -1,0 +1,15 @@
+/*p {
+  border-style: solid;
+  padding: 30px;
+  padding-left: 10%;
+  padding-right: 20%;
+}*/
+body{
+  border-style: solid;
+  border-color: red;
+  padding: 20px;
+}
+p{
+  border-style: solid;
+  padding: 50px;
+}

@@ -1,0 +1,21 @@
+#one{
+    border-style: solid;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden;  */
+    /* use this for image as images doesnot break and flow below unlike text which breaks and flows below */
+    overflow: auto;  
+    overflow-wrap: normal;
+    overflow-wrap: break-word;
+    overflow-wrap: initial; 
+    /* initial sets the initial value that was set  */
+    word-wrap: break-word;
+    /* overflow-inline: ;
+    overflow-block: ;
+     */
+}

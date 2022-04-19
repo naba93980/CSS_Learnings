@@ -1,0 +1,34 @@
+#sprite{
+    border-style: solid;
+    border-color: rgb(12, 0, 0);
+    background-image: url('sprite.webp');
+    background-repeat: no-repeat;
+    height: 128px;
+    width: 255px;
+    background-position: -5px -5px;
+    margin: 25%;
+    border-width: 0.5px;
+    
+}   
+#sprite{
+    border-style: solid;
+    border-color: rgb(12, 0, 0);
+    background-image: url('sprite.webp');
+    background-repeat: no-repeat;
+    height: 133px;
+    width: 255px;
+    background-position: -5px -144px;
+    margin: 25%;
+    border-width: 0.5px;    
+}   
+#sprite{
+    border-style: solid;
+    border-color: rgb(12, 0, 0);
+    background-image: url('sprite.webp');
+    background-repeat: no-repeat;
+    height: 147px;
+    width: 255px;
+    background-position: -5px -288px;
+    margin: 25%;
+    border-width: 0.5px;    
+}   
