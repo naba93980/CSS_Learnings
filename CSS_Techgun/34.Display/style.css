@@ -1,0 +1,72 @@
+/* below css both elements are block and takes width and height */
+
+.one{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height: 100px;
+}
+.two{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height: 100px;
+}
+
+
+/* below css both elements are inline and doesnot takes width and height */
+
+.one{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height: 100px;
+    display: inline; 
+   
+}
+.two{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height: 100px;
+    display: inline;
+}
+p{
+    display: inline;  
+    /* divs and paragraphs turned inline so height and width are not applicable */
+}
+
+
+/* below css both elements are inline-block and takes width and height */
+
+.one{
+    border-style: solid;
+    border-color: red;
+    width: 80px;
+    height: 100px;
+    /* display: block;  */
+    display: inline-block;
+   
+}
+.two{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+}
+p{
+    display: inline-block;  
+    width: 80px;
+    /* divs and paragraphs turned inline-block so height and width are applicable */
+
+    
+    /* display: none;  this one vanishes the element, even leaves the space, that is html element is gone */
+    /* visibility: hidden; this one vanishes the element, but doesnot leave space, that is html element is present, just visibility is absent */
+}
+
+/* 
+1. blocks purata loibo browser width, ami nije width dileo oinno kichu same line e dhukan jaitona
+2. inline originally joddur lage oddur loibo, height width dileo labh nai loitona
+3. inline-block height width accept korbo...erpr joddur lage oddur loibo  
+*/

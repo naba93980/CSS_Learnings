@@ -1,9 +1,11 @@
 body {
-    --bakgrncol: orange;
+    --bakgrncol: rgb(255, 0, 102);
 }
 
 /* :root in place of body selector above selects the root element of the document: <html>in the case of HTML */
-
+body{
+    background-color: var(--bakgrncol);
+}
 #one{
     height: 100px;
     border-style: 2px solid rgb(7, 0, 0);
@@ -20,7 +22,7 @@ a{
     border-style: solid;
     padding:20px;
     background-color: var(--bakgrncol);
-    background-color: var(--bakgrnco,blue);
+    background-color: var(--bakgrnco,rgb(191, 255, 0));
     /* custom properties does fallback */
 }
 

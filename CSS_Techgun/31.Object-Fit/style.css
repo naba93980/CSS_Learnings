@@ -14,20 +14,21 @@
 /* formula followed -> y%(div height - pic height) =>y% separation of pic start from div start in y axis(height) */
 /* in cover and contain positve or negative integers matter */
 
-#two{
-
-    
+#two{    
     border-style: solid;
     height: 300px;
-    width: 500px;
-    object-fit: contain;
+    width: 500px; 
+    /* contain keeps the aspect ratio unchanged and fits the image inside the parent div */
+    object-fit: contain; 
+    /* cover keeps the aspect ratio unchanged but the entiire image doesnot come inside the parent div */
     object-fit: cover;
-    object-fit: fill;
-    /* fill distorts image ratio */
+    /* fill changes the aspect ratio  but the entiire image comes inside the parent div */
+    object-fit: fill; 
+    /* fill distorts image ratio  */
     object-fit: cover;
     object-position: 0% -50%;
     object-fit: contain;
     object-position: 10% 0%; 
     object-fit: fill;
-    object-position: 10% 10%; /*nochange */
+    /* object-position: 10% 10%; nochange  */
 }

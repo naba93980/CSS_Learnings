@@ -1,0 +1,42 @@
+.parent {
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    width: 80%;
+    padding: 10px;
+}
+
+.one {
+    border-color: rgb(6, 5, 5);
+    border-width: 1px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(115, 255, 0);
+    display: inline-block;
+}
+
+.two {
+    border-color: rgb(0, 157, 255);
+    border-width: 1px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 138, 5);
+    display: inline-block;
+    position: relative;
+    /* position: absolute; */
+    /* position: fixed; */
+    top: 50px;
+    left: 50px;
+}
+
+.three {
+    border-color: rgb(255, 85, 0);
+    border-width: 1px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+}

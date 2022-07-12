@@ -1,0 +1,18 @@
+/* styling specific portion or inserting through css */
+/* syntax:
+selector::pseudo-element{
+
+} */
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::first-line{
+    color: red;
+    font-size: 30px;
+}
+/* if no selector, then it becomes universal selection */
+::selection{
+    color: red;
+    background-color: yellow;
+}

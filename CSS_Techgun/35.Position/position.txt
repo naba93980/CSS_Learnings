@@ -1,0 +1,12 @@
+
+1.static(all html elements are static by default)
+2.relative
+3.fixed 
+4.absolute
+
+below can be applied only if 2/3/4 is applied
+
+5.top
+6.bottom
+7.left
+8.right 

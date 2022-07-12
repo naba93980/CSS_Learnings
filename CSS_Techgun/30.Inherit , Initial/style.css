@@ -8,5 +8,6 @@
     color: initial;
 }
 #third{
-    color: inherit;
+    /* inherits parents property value */
+    color: inherit; 
 }

@@ -1,0 +1,35 @@
+/* pseudo class represents a special state of an element that can be styled  */
+
+/* syntax:
+selector:pseudo-class{
+
+} 
+*/
+/* li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+} */
+/* li:nth-child(3n+2){
+    color: blue;
+} */
+/* li:nth-child(odd){
+    color: blue;
+} */
+li:nth-last-child(3n-2){
+    color: blue;
+}
+:root{
+background-color: pink;
+}
+.textone:empty{
+    background-color: greenyellow;
+}
+.textone:invalid{
+    background-color: rgb(255, 47, 64);
+}
+/* .textone:hover{
+    background-color: rgb(255, 61, 47);
+}
+ */
