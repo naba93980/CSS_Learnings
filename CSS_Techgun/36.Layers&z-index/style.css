@@ -1,19 +1,23 @@
 .parent {
+    margin-top: 100px;
     border-color: red;
-    border-width: 3px;
+    border-width: 0.5px;
     border-style: solid;
     width: 80%;
+    height: 300px;
     padding: 10px;
 }
 
 .one {
-    border-color: rgb(6, 5, 5);
+    border-color: rgb(136, 255, 0);
     border-width: 1px;
     border-style: solid;
     height: 100px;
     width: 100px;
-    background-color: rgb(115, 255, 0);
+    background-color: blue;
     display: inline-block;
+    position: relative;
+    z-index: 2;
 }
 
 .two {
@@ -22,11 +26,12 @@
     border-style: solid;
     height: 100px;
     width: 100px;
-    background-color: rgb(247, 138, 5);
+    background-color: green;
     display: inline-block;
     position: relative;
-    top: 50px;
-    left: 50px;
+    right: 80px;
+    top: 20px;
+    z-index: 1;
 }
 
 .three {
@@ -37,6 +42,11 @@
     width: 100px;
     background-color: black;
     display: inline-block;
+    position: relative;
+    right: 160px;
+    top: 40px;
+    z-index: 3;
 }
-/* relative means relative to the position where it was at the beggining */
-/* it doesnot leave its space  */
+
+/* z-index works only if it is positioned element */
+/* jei element er z-index beshi ha upre thakbo */

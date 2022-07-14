@@ -1,0 +1,37 @@
+/* In its simplest use, the float property can be used to wrap text around images. */
+/* clear : direction means no floating elements are allowed on that direction */
+#one {
+    float: left;
+}
+
+#two {
+    float: left;
+    clear: left;
+    /* ager one id er floating element ta left e thakte partona */
+}
+
+#three {
+    float: left;
+    /* clear: left; */
+
+}
+
+body {
+    margin-left: 50px;
+}
+
+/* https: //youtu.be/xara4Z1b18I */
+
+/* 
+float :left mane ida bhaissha upre uittha aibo ar idar ashe pashe shob(content arki jmn para text) choraia thakbo ar ida joto pare toto left e jaibo, mane joddur parent er kase jaon jay
+ar clear:left mane idar left side e kunu float element thaktona.
+
+clear emn element eo lagan jaibo jedar float property nai.
+
+arekta bepar hoilo div element float element er porer thikai start koira dey mane newline da float element er porer thikai start hoia jay, karon float element ta bhaissa upre aia pore, ar ashe pashe jeti choraia thakbo oitar thika oi notun line start hoibo.
+
+
+*/
+
+
+/* DIFFICULT */

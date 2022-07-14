@@ -1,0 +1,40 @@
+/* The value of perspective determines the intensity of the 3D effect. Think of it as a distance from the viewer to the object. The greater the value,
+the further the distance,the less intense the visual effect. */
+
+/* perspective - distance
+perspective origin - angle */
+
+/* https: //3dtransforms.desandro.com/perspective */
+
+/* perspective-origin: x y;
+transform: perspective(x) rotate(x, y, z, angle of rotation); */
+
+.cover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+
+.content {
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(128, 255, 0);
+    height: 200px;
+    width: 200px;
+
+    /* transform: perspective(50px) translate3d(10px, 20px, -10px); */
+
+    /* transform: perspective(200px) rotateX(60deg); */
+
+    /* transform: perspective(200px) rotateY(80deg); */
+
+    /* transform: perspective(200px) rotatez(80deg); */
+
+    transform: perspective(200px) rotate3d(20, 50, 0, 60deg);
+
+    /* rotate is mostly used in 3d transition */
+
+}

@@ -4,6 +4,8 @@
     border-style: solid;
     width: 80%;
     padding: 10px;
+    position: relative;
+    top: 50px;
 }
 
 .one {
@@ -24,9 +26,8 @@
     width: 100px;
     background-color: rgb(247, 138, 5);
     display: inline-block;
-    position: relative;
-    top: 50px;
-    left: 50px;
+    position: fixed;
+    top: 0px;
 }
 
 .three {
@@ -37,6 +38,6 @@
     width: 100px;
     background-color: black;
     display: inline-block;
-}
-/* relative means relative to the position where it was at the beggining */
-/* it doesnot leave its space  */
+} 
+
+/* it leaves space, remains fixed when u scroll, relative to html document */

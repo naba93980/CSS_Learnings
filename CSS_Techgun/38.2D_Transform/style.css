@@ -1,0 +1,37 @@
+/* rotate,translate(move),scale,skew - transform property */
+/* works only with block or inline block element */
+.wrapper {
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+}
+
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(248, 159, 15);
+    padding: 10px 20px;
+    color: white;
+
+    transform-origin: 0% 100%;
+    /* jei point tare transform property di origin reference hishabe dhorbo */
+
+    transform: translate(50px, 50px);
+    /* move location */
+
+    transform: rotate(20deg);
+
+    transform: scale(2, 2);
+    /*scale multiply width and height*/
+
+    transform: skew(20deg, 20deg);
+    /* By default skewed from centre */
+
+}
