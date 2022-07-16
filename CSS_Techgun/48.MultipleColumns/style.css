@@ -1,0 +1,22 @@
+/* used for making columns like in newspapers */
+
+div {
+    column-count: 3;
+    /*sets number of columns*/
+
+    column-gap: 50px;
+    /*sets gap between columns*/
+
+    column-width: 300px;
+    /*minimum width for each column*/
+
+
+    /* below props applies on bars that separate the columns */
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red;
+}
+
+h1 {
+    column-span: all;
+}

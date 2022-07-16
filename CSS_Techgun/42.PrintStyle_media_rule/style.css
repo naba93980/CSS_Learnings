@@ -1,0 +1,21 @@
+/* @media xyz is basically styling of document for xyz, where xyz can be any media or normal screen etc. */
+
+
+/* styling of page when u print the document in browser */
+@media print {
+    p {
+        font-size: 60px;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+/* styling of page when u see the document in browser normally */
+@media screen {
+    p {
+        font-size: 10px;
+        display: inline;
+    }
+}

@@ -1,0 +1,21 @@
+/* As per specificity point rule */
+
+/* 1 */
+p {
+    color: red;
+}
+
+/* 10 */
+.red-p {
+    color: blue;
+}
+
+/* 10+1 */
+.div1 p {
+    color: rgb(60, 255, 0);
+}
+
+/* 10+1 */
+.div1 p {
+    color: rgb(255, 251, 0);
+}

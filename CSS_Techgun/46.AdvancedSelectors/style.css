@@ -1,0 +1,97 @@
+/* --------- Attribute selector ---------
+
+a {
+    color: red;
+}
+
+.linkhai[href] {
+    color: rgb(60, 255, 0);
+}
+
+a[href] {
+    color: rgb(255, 234, 0);
+} 
+
+a[href="www.google.com"]{
+    color: rgb(226, 43, 43);
+}
+
+*/
+
+
+/* class gets prioritized */
+
+/* important > inline > ID > class > element */
+
+
+/* -----------Universal selector-------------
+
+* {
+    width: 100px;
+    height: 100px;
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+} 
+
+*{
+    border: 1px solid red;
+}
+
+*/
+
+
+/* -----------Combinator selector------------- */
+
+/* Descendant combinatory - child at any stage */
+
+
+/* a is child inside div at any level */
+
+/* 
+
+div a {
+    color: red;
+} 
+
+*/
+
+
+/* Child Combinatory - direct child */
+
+/* 
+
+div > a{
+    color: red;
+} 
+
+*/
+
+/* Adjacent Combinatory - immediate sibling */
+
+/* sibling must be immediate after the element otherwise css wont work if there is any other element in between */
+
+/* 
+
+div + a{
+    color: red;
+} 
+
+*/
+
+
+/* General sibling combinatory - all sibling */
+
+/* 
+div~a {
+    color: red;
+} 
+*/
+
+/* Add selector */
+
+/* 
+h1,p,a{
+    color: red;
+} 
+*/

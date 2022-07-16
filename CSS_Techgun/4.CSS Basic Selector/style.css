@@ -3,20 +3,29 @@ p {
   color: red;
   direction: rtl;
 }
+
 /*id selector*/
 #three {
   color: green;
 }
+
 /*class selector*/
 .one {
   color: rgb(162, 243, 11);
 }
+
 #oneid {
   color: black;
 }
+
 .two {
   font-size: 25px;
 }
+
 .two {
   font-size: 50px;
 }
+
+/* An ID will take priority over a class, and a class will take priority over an element, and an inline style will take priority over everything (with the exception of the !important flag) */
+
+/* important > inline > ID > class > element */

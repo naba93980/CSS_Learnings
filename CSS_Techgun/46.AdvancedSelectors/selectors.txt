@@ -1,0 +1,55 @@
+Basic selectors:
+
+1. Type selector
+2. ID selector
+3. Class selector
+4. Pseudo Class & Pseudo Element selector
+
+
+Advance selectors:
+
+5. Attribute selector
+
+type/id/class[attribute]{
+    properties: value;
+}
+
+6. Universal selector
+
+*{
+    properties:value;
+}
+
+7. Combinatory selector (Child at any stage)
+
+a) Descendant Combinatory - child at any stage
+
+parent child{
+    properties:value;
+   }
+
+b) Child Combinatory - direct child
+
+parent > child{
+    properties:value;
+   }
+
+c) Adjacent Combinatory - immediate sibling
+
+element + sibling{
+    properties:value;
+}
+
+d) General sibling combinatory - all sibling
+
+element ~ sibling{
+    properties:value;
+}
+
+8. Add selector - 
+
+type/id/class, type/id/class{
+    properties: value;
+}
+
+

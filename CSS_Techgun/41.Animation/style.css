@@ -1,0 +1,67 @@
+/* keyframes gonna define the animation */
+@keyframes change-color {
+    0% {
+        background-color: red;
+        border-radius: 50px;
+    }
+
+    25% {
+        background-color: rgb(255, 221, 0);
+        border-radius: 80px;
+        width: 200px;
+        border-radius: 10px;
+        height: 200px;
+    }
+
+    50% {
+        background-color: rgb(0, 76, 255);
+        border-radius: 50%;
+        width: 100px;
+        border-radius: 100px;
+    }
+
+    75% {
+        background-color: rgb(13, 255, 0);
+        width: 200px;
+        height: 400px;
+    }
+
+    100% {
+        background-color: rgb(255, 0, 0);
+        width: 400px;
+        border-radius: 50px;
+    }
+}
+
+.ani {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 100px;
+    margin-left: 100px;
+    animation-duration: 5000ms;
+    animation-name: change-color;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: changecolor 3s ease-in delay 2s 5 reverse; */
+}
+
+.ani2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 100px;
+    margin-left: 100px;
+    animation-duration: 5000ms;
+    animation-name: change-color;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}

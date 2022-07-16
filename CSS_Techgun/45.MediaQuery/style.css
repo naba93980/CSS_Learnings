@@ -1,0 +1,50 @@
+/* setting properties as per width */
+
+
+.div1 {
+    width: 70%;
+    float: left;
+    background-color: red;
+    /* display: inline-block; */
+}
+
+.div2 {
+    width: 30%;
+    float: left;
+    background-color: rgb(0, 255, 21);
+    /* display: inline-block; */
+}
+
+
+/* @media screen and (max-width:768px) or (min-width:300px)  or can also be applied in place of and */
+
+@media screen and (max-width:768px) and (min-width:300px) {
+    .div1 {
+        width: 50%;
+    }
+
+    .div2 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:400px) {
+    .div1 {
+        width: 100%;
+        background-color: yellow;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+    /* image or video can also be used */
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
