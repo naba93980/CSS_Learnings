@@ -1,3 +1,102 @@
-.flexcontainer{
-    background-color: rgb(230, 125, 125);
+.flexcontainer {
+    background-color: rgb(240, 63, 63);
+    border: 2px solid black;
+    height: 700px;
+    height: 70vh;
+
+    /* make all its children flexible */
+    display: flex;
+
+
+    /*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis. */
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: row;
+
+
+    /*Controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in. */
+    flex-wrap: nowrap;
+    /* nowrap dile manually assigned width kaj kortona */
+
+
+    /* nowrap means single line, wrap means multipleline */
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+
+    /* shortcut for both flex-direction and flex-wrap */
+    flex-flow: row wrap;
+
+
+    /* position of content inside flex container */
+    justify-content: center;
+    justify-content: flex-end;
+
+
+    /* spaces around content inside flex container in row direction */
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+
+
+
+    /* spaces around content inside flex container in column direction */
+    /* align content cross axis measure kore as a whole structure */
+
+    align-content: space-around;
+    align-content: space-between;
+    align-content: flex-end;
+    align-content: flex-start;
+    align-content: center;
+
+
+
+    /* aligns flex items along the cross axis of the current line of the flex container. */
+    /* align content thakle align item kaj kortona */
+    /* align item prottek ta line er liga measure kore */
+
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: stretch;
+
+}
+
+.flexchild {
+    background-color: rgb(253, 239, 239);
+    margin: 10px;
+    border: 2px solid black;
+    width: 100px;
+    /* height: 100px; */
+    text-align: center;
+    /* display: inline-block; */
+}
+
+#one {
+    order: 2;
+    flex-grow: 1;
+    /* increase in size to take entire space */
+
+    flex-shrink: 3;
+    /* shrink in size if space is less as compared to the size that we have assigned */
+
+    flex-basis: 200px;
+}
+
+#two {
+    order: 3;
+    flex-grow: 1;
+}
+
+#three {
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: center;
+}
+
+#four {
+    order: 1;
+    flex-grow: 1;
+    align-self: flex-start;
 }

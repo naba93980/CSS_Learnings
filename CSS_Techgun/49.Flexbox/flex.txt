@@ -1,0 +1,19 @@
+parent :
+
+display: flex
+flex direction - direction of flow of flex items(if direction in row then main axis is row and cross axis is column)
+flex wrap/nowrap - wrap means multiline , nowrap means singleline
+justify-content - entire structure er reference e as a whole in horizontal direction
+align-content - entire structure er reference e as a whole in vertical direction
+align-items - kunu item er nijer line er reference e
+
+child:
+
+order - Items are assigned an integer that represents their group. The items are then placed in the visual order according to that integer,
+lowest values first. If more than one item has the same integer value,
+then within that group the items are laid out as per source order. 
+
+flex-grow - jaga baki thakle grow korbo ratio wise.
+flex-shrink - jaga kom thakle shrink korbo ratio wise.
+flex-basis - initial width given to individual element.
+align-self - individual items aligning itself. 
