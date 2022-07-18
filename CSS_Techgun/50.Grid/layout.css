@@ -1,0 +1,52 @@
+.gridcontainer {
+    border-radius: 10px;
+    padding: 10px;
+    /* height: 400px; */
+    display: grid;
+    background-color: rgb(249, 78, 107);
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    row-gap: 10px;
+    column-gap: 10px;
+    /* align-items: flex-start; */
+    /* align-content: space-between; */
+    /* justify-content: space-between; */
+
+}
+
+.griditem {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(136, 255, 0);
+}
+
+#one {
+    grid-area: header;
+    text-align: center;
+    /* height: 200px; */
+}
+
+#two {
+    grid-area: menu;
+    text-align: center;
+    /* width: 50px; */
+}
+
+#three {
+    grid-area: main;
+    text-align: center;
+}
+
+#four {
+    grid-area: right;
+    text-align: center;
+}
+
+#five {
+    grid-area: footer;
+    text-align: center;
+    /* width: 70% */
+}

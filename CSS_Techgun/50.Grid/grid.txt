@@ -1,0 +1,34 @@
+-grid mostly used for 2d alignment
+-vertical lines of grid items are called columns
+-horizontal lines of grid items are called rows
+-spaces between each column/rows are called gaps
+-lines between column are called column lines
+-lines between rows are called row lines
+
+
+grid-container properties:
+
+display: grid;
+grid-template-columns: 20% 30% 20% 20%;
+grid-template-rows: 10% 30% 40% 20%;
+row-gap: 10px;
+column-gap: 10px;
+justify-content: center;
+align-content: center;
+align-items: flex-start;
+grid-template-areas: 'name1 name2 name3'
+                     'name4 name5';
+
+grid-item properties:
+
+grid-column-start: 1; 
+grid-column-end: 4; 
+grid-column: 2 / span 3;
+grid-row-start: 1;
+grid-row-end: 3; 
+grid-row: 2 / span 3;
+grid-area: 1 / 1 / 3 / 3;
+grid-area: 1 / 1 / span 3 / span 3;
+grid-area: 'name';
+
+

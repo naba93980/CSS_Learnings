@@ -1,0 +1,67 @@
+.gridcontainer {
+    background-color: rgb(243, 114, 114);
+    padding: 20px;
+    /* height: 400px; */
+
+
+    display: inline-grid;
+    /* takes width as per content size */
+
+    display: grid;
+    /* takes full width */
+
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 20% 30% 20% 20%;
+    /* grid-template-rows: 10% 30% 40% 20%; */
+
+    row-gap: 10px;
+    column-gap: 10px;
+
+
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+
+
+    /* eikhne align item works along with align-content; kron eikhne merge korle jaygata dhoira rakhe even if stretch na korle but flexbox e joddur stretch korba oddur oi jayga dhoira rakhbo*/
+    align-items: flex-start;
+    align-items: stretch;
+
+}
+
+.griditem {
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+}
+
+#one {
+
+    /* start merging from column line 1 */
+    /* grid-column-start: 1; */
+
+    /* end merging upto column line 4 */
+    /* grid-column-end: 4; */
+
+    /* start from column line 2 then merge 2 columns */
+    /* grid-column: 2 / span 3; */
+
+
+    /*
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-row: 2 / span 3;
+    */
+
+    /* grid-row-start', ' grid-column-start', ' grid-row-end', and ' grid-column-end' */
+    /* grid-area: 1 / 1 / 4 / 3; */
+    grid-area: 1 / 1 / span 3 / span 3;
+
+}
