@@ -42,6 +42,7 @@
 
     /* spaces around content inside flex container in column direction */
     /* align content cross axis measure kore as a whole structure */
+    /* align content property has no effect on single line flex containers */
 
     align-content: space-around;
     align-content: space-between;

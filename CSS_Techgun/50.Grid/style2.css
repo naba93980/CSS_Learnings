@@ -1,0 +1,47 @@
+.gridcontainer {
+    display:grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: 
+    'header header header header header'
+    'options main main main ad'
+    'belowoptions main main main ad' 
+    'footer footer footer footer footer';
+}
+
+.griditem {
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(136, 255, 0);
+}
+
+#one {
+    grid-area: header;
+    text-align: center;
+}
+
+#two{
+    grid-area: options;
+    text-align: center;
+}
+
+#three {
+    grid-area: belowoptions;
+    text-align: center;
+}
+
+#four {
+    grid-area: main;
+    text-align: center;
+}
+
+#five {
+    grid-area: ad;
+    text-align: center;
+}
+
+#six {
+    grid-area: footer;
+    text-align: center;
+}
